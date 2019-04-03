@@ -1,5 +1,5 @@
 import BitcoinLogo from 'static/images/bitcoin.svg';
-import ActiniumLogo from 'static/images/litecoin.svg';
+import ActiniumLogo from 'static/images/actinium.svg';
 import * as React from 'react';
 import { CustomIconComponentProps } from 'antd/lib/icon';
 import { CHANNEL_STATUS } from 'lib/lnd-http';
