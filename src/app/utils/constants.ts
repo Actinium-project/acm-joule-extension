@@ -1,5 +1,5 @@
 import BitcoinLogo from 'static/images/bitcoin.svg';
-import LitecoinLogo from 'static/images/litecoin.svg';
+import ActiniumLogo from 'static/images/litecoin.svg';
 import * as React from 'react';
 import { CustomIconComponentProps } from 'antd/lib/icon';
 import { CHANNEL_STATUS } from 'lib/lnd-http';
@@ -45,22 +45,22 @@ export const DEFAULT_LND_DIRS = {
 
 export enum CHAIN_TYPE {
   BITCOIN = 'bitcoin',
-  LITECOIN = 'litecoin',
+  ACTINIUM = 'actinium',
 }
 
 export const coinSymbols: { [key in CHAIN_TYPE]: string } = {
   bitcoin: 'BTC',
-  litecoin: 'LTC'
+  actinium: 'ACM'
 };
 
 export const blockchainLogos: { [key in CHAIN_TYPE]: React.ComponentType<CustomIconComponentProps> } = {
   bitcoin: BitcoinLogo,
-  litecoin: LitecoinLogo,
+  actinium: ActiniumLogo,
 };
 
 export const blockchainDisplayName: { [key in CHAIN_TYPE]: string } = {
   bitcoin: 'Bitcoin',
-  litecoin: 'Litecoin'
+  actinium: 'Actinium'
 };
 
 export enum Denomination {
@@ -79,11 +79,11 @@ export const denominationSymbols: { [key in CHAIN_TYPE]: DenominationMap } = {
     MILLIBITCOIN: 'mBTC',
     BITCOIN: 'BTC',
   },
-  litecoin: {
-    SATOSHIS: 'lits',
-    BITS: 'mł',
-    MILLIBITCOIN: 'ł',
-    BITCOIN: 'Ł',
+  actinium: {
+    SATOSHIS: 'atoms',
+    BITS: 'ma',
+    MILLIBITCOIN: 'a',
+    BITCOIN: 'A',
   },
 };
 
@@ -94,11 +94,11 @@ export const denominationNames: { [key in CHAIN_TYPE]: DenominationMap } = {
     MILLIBITCOIN: 'Millibitcoin',
     BITCOIN: 'Bitcoin',
   },
-  litecoin: {
-    SATOSHIS: 'Litoshis',
-    BITS: 'Photons',
-    MILLIBITCOIN: 'Lites',
-    BITCOIN: 'Litecoin',
+  actinium: {
+    SATOSHIS: 'Satoshis',
+    BITS: 'Protons',
+    MILLIBITCOIN: 'Atoms',
+    BITCOIN: 'Actinium',
   },
 };
 
@@ -133,7 +133,7 @@ export const CHAIN_PREFIXES = [
   'tb',   // Bitcoin Testnet
   'bcrt', // Bitcoin Regtest
   'sb',   // Bitcoin Simnet
-  'ltc',  // Litecoin Mainnet
-  'tltc', // Litecoin Testnet
-  'rltc', // Litecoin Regtest
+  'acm',  // Litecoin Mainnet
+  'tacm', // Litecoin Testnet
+  'racm', // Litecoin Regtest
 ]
