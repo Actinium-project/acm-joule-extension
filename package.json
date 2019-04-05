@@ -1,6 +1,6 @@
 {
   "name": "acm-joule-extension",
-  "version": "0.5.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Lightning charge your browser by connecting your lightning node",
   "keywords": [
