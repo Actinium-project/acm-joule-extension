@@ -10,6 +10,7 @@ the ability to pay and use your node as an identity on the web.
 
 **WARNING: Joule is in early alpha, and should not be used for large mainnet funds**
 
+**Hint**: This is a port for **Actinium Cryptocurrency**.
 
 <p align="center">
   <a target="_blank" rel="noopener noreferrer" href="https://chrome.google.com/webstore/detail/joule/aejmoogjdllanidlpfjmmmmimfaficio"><img src="https://camo.githubusercontent.com/03f42faaa039db4a737c86efffa8fb51160b1c3e/68747470733a2f2f692e696d6775722e636f6d2f6b5742515539512e706e67" alt="Install for Chrome" data-canonical-src="https://i.imgur.com/kWBQU9Q.png" width="215" style="max-width:100%;"></a>
